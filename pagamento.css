@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+#logo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo img{
+    width: 108.79px;
+    height: 50px;
+}
+
+div.light-line {
+    width: 100vw;
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+    
+    position: relative;
+    top: 15px;
+}
+
+section{
+    margin: 50px 5px;
+}
+
+h4{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+#ricevuta{
+    background-color: white;
+    width: 330px; /*oppure max-width*/
+    height: 400px;/*height: 400px;*/
+    border: 2px solid rgb(130, 130, 130);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+
+    padding: 5px;
+}
+
+#ricevuta div{
+    margin: 7px 0;
+}
+
+

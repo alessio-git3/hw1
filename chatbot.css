@@ -1,0 +1,73 @@
+body{
+    width: 100vw;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    color: rgb(37, 37, 37);
+
+    overflow-x: hidden; /*per togliere SOLO scroll orizzontale*/
+}
+
+#logo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo img{
+    width: 108.79px;
+    height: 50px;
+}
+
+div.light-line {
+    width: 100vw;
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+    
+    position: relative;
+    top: 15px;
+}
+
+section{
+    margin: 50px 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+#response {
+    margin-left: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+    position: relative;
+    left: -98px;
+}
+
+#request{
+    width: 150%;
+    flex-shrink: 0;
+
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+#submit{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    padding: 10px 23px;
+    
+    width: 35%;
+    flex-shrink: 0;
+}
