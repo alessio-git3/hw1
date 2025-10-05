@@ -12,7 +12,7 @@
 
     if(!empty($_POST["request"])){
         //richieste alla API REST di Gemini
-        $api_key = "AIzaSyBb54Tkec-shhpkz_k8ffw-Zm2L5Jv0ZzQ";
+        $api_key = "";
 
         $user_input = $_POST["request"];
         $headers = array("Content-Type: application/json");
