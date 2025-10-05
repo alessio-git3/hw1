@@ -13,8 +13,8 @@
 
     function paypal(){
         if(isset($_POST["price"]) && isset($_POST["nome_capo"])){
-            $client_id = 'AcEboicxacmqK9HAkmH9bNtjXFx6ztl5NgCHOuOqRA0lmcd94zRCycgGHOsRyWmRrGSBjLzVhsN2fPg4';
-            $client_secret = 'EOkSDhPJIr1sLmzXctr-aKpQaO-iTpRZNYnDBw4x6wxYr5c8JcrhR36N9E765qcivZ0lHDelGQmoW2a-';
+            $client_id = '';
+            $client_secret = '';
             $name = $_POST["nome_capo"];
             $price = (float)$_POST["price"];
             $currency = "EUR";
