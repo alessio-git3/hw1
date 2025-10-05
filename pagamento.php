@@ -34,8 +34,8 @@
                         if(isset($_GET["paymentId"]) && isset($_GET["PayerID"])){
                             $payment_id = $_GET['paymentId'];
                             $payer_id = $_GET['PayerID'];
-                            $client_id = 'AcEboicxacmqK9HAkmH9bNtjXFx6ztl5NgCHOuOqRA0lmcd94zRCycgGHOsRyWmRrGSBjLzVhsN2fPg4';
-                            $client_secret = 'EOkSDhPJIr1sLmzXctr-aKpQaO-iTpRZNYnDBw4x6wxYr5c8JcrhR36N9E765qcivZ0lHDelGQmoW2a-';
+                            $client_id = '';
+                            $client_secret = '';
                             
                             //richiesta token
                             $headers = array("Content-type: application/x-www-form-urlencoded", 
